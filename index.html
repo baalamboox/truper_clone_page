@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Truper® - Es mucha herramienta</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="gm/img/favicon.png" type="image/x-icon">  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  </head>
+  <body>
+    <div class="container-fluid" id="div_container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="gm/img/logo_header.png" alt="" id="logo_header">
+        </div>
+        <div class="col-md-6">
+          <div id="box_search">
+            <input id="input_search" type="text" placeholder="Introduce código, clave ó descripción:" style="margin-left: 10px; margin-top: 8px; width: 90%;">
+            <button style="background-color: transparent;" class="btn">
+              <i class="fas fa-search" id="search_icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+      <div class="row" id="navbar">
+        <div class="col-md-9">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="background-color: #FF6600; border-radius: 0px 0px;">Catalogo 2020</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="links_nav"">Servicios</a>
+              <div class="dropdown-menu" id="divs_nav">
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Manuales e instructivos</a>
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Refacciones y accesorios</a>
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Centros de servicio - CSAT</a>
+                <a href="" class="dropdown-item" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Garantías</a>
+                <a href="" class="dropdown-item" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Vídeos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="links_nav">Quiénes somos</a>
+              <div class="dropdown-menu" id="divs_nav">
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Acerca de Truper</a>
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Historia</a>
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Colabora con nosotros</a>
+                <a class="dropdown-item" href="#" id="links_subnav" style="color: white;"><i class="fas fa-caret-right"></i>Responsabilidad social</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="links_nav">Quiero ser distribuidor</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <button class="btn" style="background-color: #FF6600; border-radius: 24px; color: white;">Visita nuestro catálogo</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="gm/img/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="gm/img/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="gm/img/3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="row" style="background-color: #F0EFEF;">
+          <div class="col-md-4" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
+            <div class="card" style="width: 350px; border-style: none; background-color: #F0EFEF;">
+              <img src="gm/img/refacciones_accesorios_home.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="title_cards"><i class="fas fa-caret-right"></i>Refacciones y Accesorios</h5>
+                <p class="card-text" id="paragraph_cards">Contamos con un extenso surtido de refacciones y accesorios para complementar y alargar la vida útil de los productos.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1" id="cards_buttons">Ver más</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
+            <div class="card" style="width: 350px; border-style: none; background-color: #F0EFEF;">
+              <img src="gm/img/centros_home.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="title_cards"><i class="fas fa-caret-right"></i>Centros de servicio</h5>
+                <p class="card-text" id="paragraph_cards">Ponemos a tu disposición nuestros Centros de Servicio Autorizado Truper, en México y Latinoamérica, donde repararemos tus herramientas eléctricas y a gasolina.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2" id="cards_buttons">Ver más</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
+            <div class="card" style="width: 350px; border-style: none; background-color: #F0EFEF;">
+              <img src="gm/img/manuales_home.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="title_cards"><i class="fas fa-caret-right"></i>Manuales e instructivos</h5>
+                <p class="card-text" id="paragraph_cards">Conoce cómo empezar a utilizar tus herramientas eléctricas, neumáticas, a gasolina, gatos hidráulicos, polipastos y más.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3" id="cards_buttons">Ver más</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row" id="div_row_distributor">
+        <div class="col-md-6">
+          <div class="card" style="width: 100%; background-color: transparent; color: white; margin-top: 50px;">
+            <div class="card-body">
+              <h5 class="card-title" id="title_cards"><i class="fas fa-caret-right"></i>Sé un distribuidor Truper</h5>
+              <p class="card-text" style="font-size: 14px;"><span style="color: #FF6600;">Estamos presentes en miles de ferreterías, tiendas y negocios</span> de diversos tamaños.
+                Nos acercamos, apoyamos y desarrollamos a cada uno de nuestros clientes. Nuestro éxito y liderazgo se debe a la calidad de nuestros productos y a que ofrecemos <span style="color: #FF6600;">el mejor servicio a clientes del mercado ferretero en México,</span> con nuestros <span style="color: #FF6600;">12 Centros de distribución</span> a nivel nacional.</p>
+              <a href="#" class="btn" id="cards_buttons">Quiero ser un distribuidor</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: 60px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div style="color: white;">
+                  <span style="font-size: 60px; font-weight: bold;">"</span>
+                  <p>Algo que me gusta de Truper, es la seriedad, porque estoy seguro que le precio que me dan a mi es el que le dan a otros.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div style="color: white;">
+                  <span style="font-size: 60px; font-weight: bold;">"</span>
+                  <p>Algo que me gusta de Truper, es la seriedad, porque estoy seguro que le precio que me dan a mi es el que le dan a otros.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="div_row_footer">
+        <div class="col-md-3">
+          <ul>
+            <label><i class="fas fa-caret-right"></i>Servicios</label>
+            <li><a href="#">Manuales e instructivos</a></li>
+            <li><a href="#">Refacciones y accesorios</a></li>
+            <li><a href="#">Centros de servicio</a></li>
+            <li><a href="#">Garantías</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <label><i class="fas fa-caret-right"></i>Quiénes somos</label>
+            <li><a href="#">Acerca de Truper</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Quiero ser destribuidor</a></li>
+            <li><a href="#">Responsabilidad social</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <label><i class="fas fa-caret-right"></i>Atención a clientes</label>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Catálogo impreso</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul id="fity">
+            <label><i class="fas fa-caret-right"></i>Síguenos</label>
+            <li><a href="#"><i class="fab fa-facebook-f" id="facebook_icon"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in" id="in_icon"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" id="twitter_icon"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube" id="youtube_icon"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" id="end_footer">
+        <div class="col-md-3">
+          <img src="gm/img/logo_header.png" alt="" style="max-height: 20px;">
+        </div>
+        <div class="col-md-9">
+          <p class="text-center" style="font-size: 10px;">© 2020 TRUPER S.A. de C.V. Todos los derechos reservados. truper.com | Consulta nuestros <a href="#" style="text-decoration: underline;">términos y condiciones</a> y nuestro <a href="#" style="text-decoration: underline;">aviso de privacidad</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 1-->
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" id="modals_style" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle" style="font-weight: bold;">Refacciones y Accesorios</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modals_body">
+            <div>
+              <img src="gm/img/refacciones_accesorios_home.jpg" alt="">
+            </div>
+            <div id="container_modals">
+              <label for="">Código identificador: </label>
+              <input id="inputs_modals" type="text">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancel_buttons">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="cards_buttons">Ir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" id="modals_style" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle" style="font-weight: bold;">Centros de servicio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modals_body">
+            <div>
+              <img src="gm/img/centros_home.jpg" alt="">
+            </div>
+            <div id="container_modals">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancel_buttons">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="cards_buttons">Ir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" id="modals_style" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle" style="font-weight: bold;">Manuales e instructivos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modals_body">
+            <div>
+              <img src="gm/img/manuales_home.jpg" alt="">
+            </div>
+            <div id="container_modals">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancel_buttons">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="cards_buttons">Ir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

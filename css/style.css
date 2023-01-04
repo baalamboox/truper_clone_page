@@ -1,0 +1,116 @@
+#div_container {
+    background-color: #262626;
+    height: 80px;
+
+}
+#box_search {
+    background-color: white;
+    height: 40px;
+    border-radius: 33px;
+}
+#input_search {
+    border-style: none;
+}
+#navbar {
+    background-color: #353535;
+    height: 40px;
+}
+#div_row_footer {
+    background-color: #262626;
+    height: 280px;
+    color: white;
+}
+#div_row_distributor {
+    height: 300px;
+    background-image: url("../gm/img/distribuidor.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo_header {
+    max-width: 100%;
+    height: 24px;
+}
+#cards_buttons {
+    background-color: #FF6600;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    border-color: transparent;
+}
+#title_cards {
+    font-weight: bold;
+    font-size: 22px;
+}
+#paragraph_cards {
+    font-size: 12px;
+    text-align: justify;
+}
+i {
+    color: #FF6600;
+    font-size: 12px;
+    vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding-left: 8px;
+    font-size: 13px;
+    line-height: 30px;
+}
+a {
+    color: white;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#facebook_icon, #in_icon, #twitter_icon, #youtube_icon {
+    font-size: 18px;
+    float: left;
+    padding-left: 10px;
+}
+#end_footer {
+    background-color: #262626;
+    color: white;
+}
+#search_icon {
+    font-size: 16px;
+}
+#links_nav:hover {
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0px 0px;
+}
+#divs_nav {
+    background-color: #262626;
+}
+#links_subnav:hover {
+    background-color: unset;
+    text-decoration: underline;
+    color: #FF6600;
+}
+#modals_style {
+    width: 352px;
+}
+#modals_body {
+    background-color: #F0EFEF;
+    padding: 0px;
+}
+#cancel_buttons {
+    background-color: #353535;
+    color: white;
+    border-radius: 50px;
+}
+#container_modals {
+    padding: 20px;
+}
+#inputs_modals {
+    width: 125px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #FF6600;
+}
